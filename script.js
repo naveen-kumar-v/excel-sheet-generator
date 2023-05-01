@@ -21,8 +21,6 @@ const generateTable = () => {
         swal({
             title: " Oops!",
             text: " Please enter a valid number of row(s) and column(s)",
-            icon: "warning",
-            dangerMode: true,
         });
     }
 
